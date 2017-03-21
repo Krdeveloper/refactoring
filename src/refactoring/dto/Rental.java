@@ -18,11 +18,11 @@ public class Rental {
 	}
 	
 	public double getCharge() {
-		return getMovie().getCharge(daysRented);
+		return movie.getCharge(daysRented);
 	}
 	public int getFrequentRentalPoints() {
 		// TODO Auto-generated method stub
 		
-		return getMovie().getFrequentRentalPoints(daysRented);
+		return movie.getFrequentRentalPoints(daysRented);
 	}
 }
