@@ -32,5 +32,11 @@ public class TestMain {
 		System.out.println(c1.statement());
 		System.out.println("============================");
 		System.out.println(c2.statement());
+		
+		System.out.println("==============html==============");
+		System.out.println(c1.htmlStatement());
+		System.out.println("============================");
+		System.out.println(c2.htmlStatement());
+		
 	}
 }
